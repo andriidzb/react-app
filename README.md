@@ -6,7 +6,7 @@ React Application "Find your movie"
 Clone the application on your computer:
 
 ```
-git clone https://github.com/andriydzb/App.git
+git clone https://github.com/andriydzb/react-app.git
 
 ```
 
