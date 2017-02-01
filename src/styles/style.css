@@ -191,16 +191,16 @@ p.actors, p.plot {
   .search-input {
     margin-left: 0;
     height: 30px;
-    width: 79%;
+    width: 58%;
   }
 
   #button {
     height: 30px;
-    width: 20%;
+    width: 40%;
   }
 
   .search-input:hover, .search-input:active, .search-input:focus {
-    width: 79%;
+    width: 58%;
   }
 
   .picture img {
