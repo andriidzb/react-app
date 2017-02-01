@@ -170,9 +170,9 @@ class SearchBar extends Component {
   render() {
     return  <div className="big-container">
               <div className="container">
-                <div className="col-md-12 search">
-                  <input className="search-input" type="text" value={this.state.value} placeholder="Search" onChange={::this._onInputValueChanged} />
-                  <input type="button" className="btn btn-primary" value="Search" onClick={::this._onSearchClick} />
+                <div className="col-md-12 search">                
+                  <input className="search-input" type="text" value={this.state.value} placeholder=" Search" onChange={::this._onInputValueChanged} />
+                  <input type="button" id="button" className="btn btn-primary" value="Search" onClick={::this._onSearchClick} />
                 </div>  
               </div>
                 {this._contentOnPage()}

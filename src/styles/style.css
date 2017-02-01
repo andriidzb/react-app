@@ -3,27 +3,33 @@
     padding: 0;
 }
 
-
 body {
   background-image: url(img/back.jpg); 
 }
 
 .container {
-  font-family: Verdana, sans-serif;
+  font-family: Helvetica, Verdana, sans-serif;
 }
 
 .search-input {
+  border-radius: 15px;
   margin: 25px 2px 10px 0px;
   height: 35px;
-  width: 91.5%;
+  width: 25%;
+  margin-left: 62.5%;
+  transition-duration: 0.3s;
 }
 
-.search-input:active {
-  border: 1px solid #3582ff;
+.search-input:hover, .search-input:active, .search-input:focus {
+  border-radius: 0px;
+  border: none;
+  width: 87.5%;
+  margin-left: 0;
+  transition-duration: 0.3s;
 }
 
 .search {
-  height: 100px;
+  height: 120px;
   width: 100%;
 }
 
@@ -33,9 +39,17 @@ body {
   border-radius: 20px;
 }
 
-.btn {
-  height: 40px;
-  width: 8%;
+#button {
+  margin-bottom: 2px;
+  height: 35px;
+  width: 12%;
+  border-radius: 20px;
+  background: #1b1b1c;
+  border: none;
+}
+
+#button:hover {
+  background: #000;
 }
 
 #image {
@@ -73,14 +87,16 @@ p.actors, p.plot {
 }
 
 .stars {
+  color: #fff;
   font-size: 20px;
   margin-top: 40px;
-  background: #aacbff;
+  background: #79797a;
+  text-shadow: #000 0 0 4px;
   border-radius: 10px;
 }
 
 .stars:hover {
-  background: #3582ff;
+  background: #000;
 }
 
 .stars p {
@@ -134,14 +150,6 @@ p.actors, p.plot {
     margin-left: 0px;
   }
 
-  .search-input {
-    width: 80%;
-  }
-
-  .btn {
-    width: 10%;
-  }
-
   .picture img {
     height: 500px;
     width: 70%;
@@ -181,18 +189,23 @@ p.actors, p.plot {
   }
 
   .search-input {
+    margin-left: 0;
     height: 30px;
-    width: 58%;
+    width: 79%;
   }
 
-  .btn {
+  #button {
     height: 30px;
-    width: 40%;
+    width: 20%;
+  }
+
+  .search-input:hover, .search-input:active, .search-input:focus {
+    width: 79%;
   }
 
   .picture img {
     height: 300px;
-    width: 80%;
+    width: 250px;
   }
 
   .picture {
