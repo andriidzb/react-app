@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+  background-image: url(img/back.jpg); 
+}
+
+.container {
+  font-family: Verdana, sans-serif;
+}
+
+.search-input {
+  margin: 25px 2px 10px 0px;
+  height: 35px;
+  width: 93.5%;
+}
+
+.search-input:active {
+  border: 1px solid #3582ff;
+}
+
+.search {
+  height: 100px;
+  width: 100%;
+}
+
+.info {
+  color: #000;
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 20px;
+}
+
+.btn {
+  height: 40px;
+  width: 6%;
+}
+
+#image {
+  margin: 20px 0px 10px 15px;
+  border: 2px solid #000;
+  border-radius: 5px;
+  transition-duration: 0.5s;
+}
+
+#image:hover, .picture img:hover {
+  transform: scale(1.1);
+  transition-duration: 0.5s;
+}
+
+.categories, .results {
+  margin-top: 40px;
+  font-size: 20px;
+}
+
+.results p {
+  padding-left: 10px;
+}
+
+.categories p, .results p, .categories1 p, .results1 p {
+  margin-bottom: 30px;
+}
+
+.categories1, .results1 {
+  margin: 20px 0px 0px 20px;
+  font-size: 20px;
+}
+
+p.actors, p.plot {
+  height: 60px;
+}
+
+.stars {
+  font-size: 20px;
+  margin-top: 40px;
+  background: #aacbff;
+  border-radius: 10px;
+}
+
+.stars:hover {
+  background: #3582ff;
+}
+
+.stars p {
+  margin-left: 60px;
+  display: inline;
+}
+
+.stars p:last-child {
+  margin-left: 20px;
+}
+
+.error {
+  text-align: center;
+  font-size: 24px;
+  color: #000;
+  background: rgba(255, 255, 255, 0.6);;
+}
+
+.picture img {
+  height: 450px;
+  width: 100%;
+  border: 3px solid #000;
+  border-radius: 10px;
+  margin: 20px 0px;
+  transition-duration: 0.5s;
+}
+
+.off {
+  position: absolute;
+  top: -30px;
+  font-size: 20px;
+  color: #fff;
+  text-shadow: #000 0 0 3px;
+}
+
+@media (min-width: 768px) and (max-width: 991px)  {
+
+  .stars, .stars p {
+    margin-top: 0px;
+  }
+
+  .photo {
+    text-align: center;
+  }
+  
+  .results {
+    float: right;
+  }
+
+  .categories1, .results1 {
+    margin-left: 0px;
+  }
+
+  .search-input {
+    width: 80%;
+  }
+
+  .btn {
+    width: 10%;
+  }
+
+  .picture img {
+    height: 500px;
+    width: 70%;
+  }
+
+  .picture {
+    text-align: center;
+  }
+
+}
+
+@media (max-width: 767px) {
+
+  #image {
+    height: 300px;
+    width: 200px;
+  }
+  
+  .categories, .results {
+    font-size: 10px;
+    font-weight: 300;
+  }
+
+  .stars, .stars p {
+    margin-top: 0px;
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 8px;
+  }
+
+  .photo {
+    text-align: center;
+  }
+
+  .categories1, .results1 {
+    display: none;
+  }
+
+  .search-input {
+    height: 30px;
+    width: 58%;
+  }
+
+  .btn {
+    height: 30px;
+    width: 40%;
+  }
+
+  .picture img {
+    height: 300px;
+    width: 80%;
+  }
+
+  .picture {
+    text-align: center;
+  }
+
+}
