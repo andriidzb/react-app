@@ -3,6 +3,8 @@ React Application "Find your movie"
 
 ### Install
 
+https://andriydzb.github.io/react-app/ - github.io page
+
 Clone the application on your computer:
 
 ```
