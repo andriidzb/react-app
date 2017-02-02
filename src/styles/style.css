@@ -29,7 +29,7 @@ body {
 }
 
 .search {
-  height: 120px;
+  height: 100px;
   width: 100%;
 }
 
@@ -169,7 +169,7 @@ p.actors, p.plot {
   }
   
   .categories, .results {
-    font-size: 10px;
+    font-size: 11px;
     font-weight: 300;
   }
 
